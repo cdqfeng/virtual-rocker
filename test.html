@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-size: calc(15.625vw);
+        }
+        #rocker_bg {
+            position: relative;
+            width: 6.4rem;
+            height: 6.4rem;
+            background: #fff18f;
+            border-radius: 50%;
+        }
+        #rocker {
+            position: absolute;
+            top: 2.2rem;
+            left: 2.2rem;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background: #ff7867;
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="rocker_bg">
+        <div id="rocker"></div>
+    </div>
+    <script src="./js/rocker.js"></script>
+</body>
+</html>
