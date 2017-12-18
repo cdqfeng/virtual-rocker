@@ -1,4 +1,4 @@
-// 摇杆容器和边框宽度、摇杆容器中心坐标
+// 摇杆容器、摇杆容器中心坐标
 var rocker = document.getElementById('rocker_bg');
 var rocker_center_X = rocker.offsetLeft + rocker.offsetWidth/2;
 var rocker_center_Y = rocker.offsetTop + rocker.offsetHeight/2;
